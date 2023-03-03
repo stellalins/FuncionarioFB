@@ -1,0 +1,13 @@
+<div class="flex-container">
+    <mat-card>
+      <img [src]="funcionario.foto == null ? '/assets/no_profile.webp' : funcionario.foto" alt="" mat-card-image class="fun-img">
+      <mat-card-content>
+        <mat-card-title>
+          {{funcionario.nome}}
+        </mat-card-title>
+        <mat-card-subtitle>
+          {{funcionario.email}}
+        </mat-card-subtitle>
+      </mat-card-content>
+    </mat-card>
+</div>
